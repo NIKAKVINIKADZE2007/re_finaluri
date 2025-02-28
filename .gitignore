@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+dist/
+.build/
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log
+logs/
+*.log
+*.gz
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Typescript
+*.tsbuildinfo
+
+# Jest & Testing
+coverage/
+jest.cache/
+jest.config.js
+
+# Build outputs
+*.log
+*.lock
+*.bak
+out/
+tmp/
+
+# Render & Deployment
+render.yaml
